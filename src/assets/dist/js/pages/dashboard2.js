@@ -1,5 +1,6 @@
 $(function () {
 
+  var Grid = function(width, height) {
   'use strict';
 
   /* ChartJS
@@ -271,4 +272,5 @@ $(function () {
       spotColor: $this.data('spotcolor')
     });
   });
+  }
 });
